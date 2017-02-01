@@ -1,7 +1,7 @@
-# VegAssist
-Twitter Bot that retweets people looking for support going vegan
+# TrumpRegret
+Twitter Bot that retweets people who express regret about voting for Trump
 
-VegAssist tracks usage of the term "vegan" on twitter's public stream, and processes each item, looking for exact matches on an array of preset phrases. If there's a match, the bot will retweet.
+TrumpRegret tracks usage of the mention "@realDonaldTrump" on twitter's public stream, and processes each item, looking for exact matches on an array of preset phrases. If there's a match, the bot will retweet.
 
 ## Installing
 
@@ -31,4 +31,4 @@ Simply run `npm test`
 
 ## Disabling retweets
 
-Retweets can be disabled for testing purposes by using the argument `--dry-run`, e.g. `node vegassist.js --dry-run`. In dry run mode, matching tweets will be logged to the console but not retweeted.
+Retweets can be disabled for testing purposes by using the argument `--dry-run`, e.g. `node index.js --dry-run`. In dry run mode, matching tweets will be logged to the console but not retweeted.

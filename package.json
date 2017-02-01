@@ -1,8 +1,8 @@
 {
-  "name": "vegassist",
+  "name": "trumpregret",
   "version": "1.0.0",
   "description": "",
-  "main": "vegassist.js",
+  "main": "index.js",
   "dependencies": {
     "twit": "^2.1.0"
   },
