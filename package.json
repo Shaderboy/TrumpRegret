@@ -1,0 +1,17 @@
+{
+  "name": "vegassist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vegassist.js",
+  "dependencies": {
+    "twit": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "author": "",
+  "license": "ISC"
+}
